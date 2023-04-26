@@ -38,10 +38,21 @@ If you are in charge of _everything_ for your system, then you have an on-premis
 ## Infrastructure as a Service (IaaS)
 However, you might want to - at the very least - outsource, or let Microsoft manage your infrastructure (your networking, hardware, virtualization) whilst you manage the platform and software. This is IaaS. There are various use cases for having the Cloud manage your infrastructure:
 * Migration of workloads
-* Testing and development
+* For testing and development
 * Storage, Backups and Recovery
 
 Naturally, with an IaaS solution, you have _lots of Virtual Machines_ involved!
 
 ## Platform as a Service (PaaS)
-Going one level up..
+Going one level up... if you let Microsoft manage both the infrastructure and the platform, but you build your own applications, you have PaaS. Microsoft/your Cloud provider will manage the Operating System, security patches, middleware, and runtime, whereas you build and manage your own applications.
+
+Some use cases for PaaS:
+* Developing your own applications (you write it whilst letting MS Azure handle things like pipelines, packages, and CI)
+* DevOps - a prime example: [Azure DevOps](https://dev.azure.com)!
+
+## Software as a Service (SaaS)
+Finally, if _everything_ is being outsourced - and you are just using the software out-of-the-box/off-the-shelf - you have SaaS.
+* You manage nothing
+* Your cloud provider manages everything
+
+Some Microsoft examples of SaaS include OneDrive and Teams - you just use these out of the box, whilst Microsoft handles everything behind the scenes e.g. for OneDrive, Microsoft's servers are storing the files and their infrastructure is used for things like disaster recovery.
